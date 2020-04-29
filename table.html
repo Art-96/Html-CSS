@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/minimal-table.css" rel="stylesheet" type="text/css">
+    <title>My site</title>
+</head>
+<body>
+    <h1> <strong> This is my first table</strong></h1>
+    <a href="index.html">Go to the main page</a>
+    <br>
+    <table>
+        <colgroup>
+            <col style="background: blue;" span="1"> <!--ко всем--> 
+            <col>
+            <col style="background: red;">
+        </colgroup>
+        <tr style="background: yellow;">
+            <th>first cell</th>
+            <th>second cell</th>
+            <th>third cell</th>
+        </tr>
+        <tr>
+            <td colspan="2">first cell</td>
+            <!-- <td>second cell</td> -->
+            <td rowspan="2">third cell</td>
+        </tr>
+        <tr>
+            <td>first cell</td>
+            <td>second cell</td>
+            <!-- <td>third cell</td> -->
+        </tr>
+        <tr>
+            <td>first cell</td>
+            <td>second cell</td>
+            <td>third cell</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
