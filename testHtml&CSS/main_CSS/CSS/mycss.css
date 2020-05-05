@@ -8,3 +8,37 @@ p{
 h2{
     text-align: center;
 }
+a:hover{
+    color: red;
+}
+a:active{
+    font-size: 20px;
+    color: red;
+}
+a:link{
+    color: chartreuse;
+}
+a:visited{
+    color: cyan;
+}
+p:first-letter{
+    font-size: 30px;
+    color: red;
+}
+p::first-line{
+    font-weight: bold;
+}
+input:focus{
+    background: #fffccc;
+    border-color: red;
+}
+.text::before{
+    content: "Good !!!";
+}
+.text::after{
+    content: "End !";
+}
+::selection{
+    color: #fff;
+    background: #000000;
+}
