@@ -42,3 +42,9 @@ input:focus{
     color: #fff;
     background: #000000;
 }
+img[title]{
+    width: 100px;
+}
+a[href="https://yandex.ua"]{
+    color: red;
+}
