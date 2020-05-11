@@ -3,6 +3,8 @@ body{
 }
 h1{
     font-family: Arial, Helvetica, Verdana;
+    text-shadow: -3px 5px 2px #999;
+    text-align: center;
 }
 p{
     font-size: 1.2em;
@@ -12,6 +14,7 @@ p{
     text-transform: uppercase;*/
     letter-spacing: 1px; /* расстояние между символами css */
     word-spacing: 3px; /* расстояние между словами css */
+    line-height: 150%;
 
 }
 a{
@@ -19,4 +22,18 @@ a{
 }
 a:hover{
     text-decoration: underline;
+}
+h2::first-letter{
+    font-size: 20px;
+    font-weight: bold;
+    background: #000;
+    color: #fff;
+    border-radius: 5px 5px 5px 5px;;
+    padding: 4px;
+}
+ol{
+    list-style-type: disc;
+    list-style-position: inside;
+    border: 1px solid #987;
+    /*list-style-image: url(../img/12.png);*/
 }
