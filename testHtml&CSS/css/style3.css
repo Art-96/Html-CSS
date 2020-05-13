@@ -1,5 +1,9 @@
 body{
     padding: 20px;
+    background-image: url(../img/fon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 p{
     width: 50%;/* ширина */
