@@ -1,0 +1,23 @@
+body{
+    padding: 20px;
+}
+p{
+    width: 50%;/* ширина */
+    border: 1px solid red; /*рамка*/
+    padding: 5px 10px;/*отступы*/
+    float: left;
+    box-sizing: border-box;
+}
+img{
+    float: right;
+}
+div{
+    width: 40px;
+    border: 1px solid blue;
+    min-height: 200px;
+    background: blue;
+    float: right;
+}
+p.text{
+    clear: left;
+}
