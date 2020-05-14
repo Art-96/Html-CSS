@@ -1,9 +1,10 @@
 body{
     padding: 20px;
-    background-image: url(../img/fon.jpg);
+    /*background-image: url(../img/fon.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
+    background-image: linear-gradient(to bottom, #f34, rgb(34, 34, 234));
 }
 p{
     width: 50%;/* ширина */
@@ -11,6 +12,9 @@ p{
     padding: 5px 10px;/*отступы*/
     float: left;
     box-sizing: border-box;
+    background-image: linear-gradient(yellow, transparent),
+                        linear-gradient(120deg, green, transparent),
+                        linear-gradient(200deg, blue, transparent);
 }
 img{
     float: right;
@@ -24,4 +28,11 @@ div{
 }
 p.text{
     clear: left;
+    background-image: radial-gradient(red, blue);
+}
+p.text2{
+    background-image: radial-gradient(circle, red, blue);
+}
+p.text3{
+    background-image: radial-gradient(circle at 30% 50%, red, blue);
 }
