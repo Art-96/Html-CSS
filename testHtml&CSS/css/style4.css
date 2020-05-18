@@ -1,0 +1,33 @@
+a.gog{
+    border: 1px solid rgb(0, 9, 0);
+    background-color: rgb(50, 50, 50);
+    color: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+a.gog:hover{
+    border: 1px solid rgb(123, 9, 123);
+    background-color: rgb(222, 222, 222);
+    color: #000;
+    padding: 4px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+span.but{
+    position: relative;
+    background-position: left top;
+    width: 25px;
+    height: 34px;
+    background-image: url(../img/nav.png);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    display: inline-block;
+}
+span.but:hover{
+    background-position: left top -34px;
+    background-origin: content-box;
+    cursor: pointer;
+}
