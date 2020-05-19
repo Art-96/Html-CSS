@@ -76,3 +76,46 @@ h2.dir{
     border: 1px solid #888;
     box-sizing: border-box;
 }
+p.text{
+    width: 500px;
+    border: 1px solid #003;
+    padding: 3px;
+    transform: rotate(12deg);
+}
+a.button{
+    font: .9em Arial, Helvetica, sans-serif;
+    border-radius: .5em;
+    background-color: rgb(34, 255, 23);
+    border: 1px solid rgb(0, 0, 0, .5);
+    padding: .5em;
+    display: inline-table;
+}
+a.button:hover{
+    -webkit-transform: scale(1.2) rotate(10deg);
+    -ms-transform: scale(1.2) rotate(10deg);
+    transform: scale(1.2) rotate(10deg);
+}
+a.clickon{
+    background-color: orange;
+    font-size: 18px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+a.clickon:hover{
+    background-color: red;
+    font-size: 22px;
+}
+a.click{
+    padding: 3px;
+    color: black;
+    background-color: #FF6603;
+    border: 5px solid #660034;
+    transition-property: color, background-color, order-color;
+    transition-duration: 1s, 1s, 2s;
+    transition-delay: 0, 0, 1s;
+}
+a.click:hover{
+    color: white;
+    background-color: #66034;
+    border-color: #FF6603;
+}
