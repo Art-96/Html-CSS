@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_form.css">
+    <title>Document</title>
+</head>
+<body>
+    <article>
+        <h1> HTML form </h1>
+        <form action="" method="POST" class="form">
+            <p>
+                <label for="name"> What is your name? </label>
+                <input type="text" name="name" id="name">
+            </p>
+            <p>
+                <label for="email"> Enter your email </label>
+                <input type="email" name="email" id="email">
+            </p>
+            <p> There is an experience of studying:
+				<label>
+					<input type="radio" name="skill" value="1">
+					JavaScript
+				</label>
+				<label>
+					<input type="radio" name="skill" value="2">
+					HTML & CSS
+				</label>
+				<label>
+					<input type="radio" name="skill" value="3">
+					PHP
+				</label>
+			</p>
+			<p>
+				<label for="goal"> What is the goal: </label>
+				<select name="goal" id="goal">
+					<option> I want to change my profession </option>
+					<option> Improve skill </option>
+					<option> Like a hobby </option>
+					<option> I want to be a freelancer </option>
+				</select>
+			</p>
+			<p>
+				<label for="comments"> Your wish </label>
+				<textarea name="comments" cols="40" rows="5" id="comments">
+				</textarea>
+			</p>
+			<p>
+				<input type="submit" value="send">
+			</p>
+        </form>
+    </article>
+</body>
+</html>
